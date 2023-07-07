@@ -1,32 +1,23 @@
+#include <stdlib.h>
 #include "main.h"
-#include <stdio.h>
 
 /**
- * binary_to_uint - function that convert a binary number to an unsigned int
- * @b: string to convert.
+ * binary_to_uint - converts a base2 binary to base10 unsigned int
+ * @b: string of binary characters to evaluate
  *
- * Return: converted number or 0
+ * Return: converted base10 numbers, 0 if failure
  */
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int num, i;
+	unsigned int i, base = 0;
 
-	if (!b || !*b)
+	if (b == NULL)
 		return (0);
-
-	num = i = 0;
-	while (b[i])
+	for (i = 0; b[i]; i++)
 	{
-		if (b[i] > 49)
+		if (b[i] != '0' && b[i] != '1')
 			return (0);
-		else if (b[i] == 49)
-		{
-			num <<= 1;
-			num += 1;
-		}
-		else
-			num <<= 1;
-		i++;
+		base = base * 2 + b[i] - '0';
 	}
-	return (num);
+	return (base);
 }
