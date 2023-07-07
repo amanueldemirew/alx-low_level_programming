@@ -1,0 +1,41 @@
+
+========== 0-binary_to_uint.c ==========
+binary_to_uint
+
+========== 100-get_endianness.c ==========
+get_endianness
+
+========== 101-password ==========
+
+========== 1-print_binary.c ==========
+_pow
+print_binary
+
+========== 2-get_bit.c ==========
+get_bit
+
+========== 3-set_bit.c ==========
+set_bit
+
+========== 4-clear_bit.c ==========
+clear_bit
+
+========== 5-flip_bits.c ==========
+flip_bits
+
+========== main.h ==========
+main.h:1: ERROR: trailing whitespace
+main.h:2: ERROR: trailing whitespace
+main.h:2: WARNING: This line is not protected from double inclusion
+main.h:4: WARNING: This line is not protected from double inclusion
+main.h:5: WARNING: This line is not protected from double inclusion
+main.h:6: WARNING: This line is not protected from double inclusion
+main.h:7: WARNING: This line is not protected from double inclusion
+main.h:8: WARNING: This line is not protected from double inclusion
+main.h:9: WARNING: This line is not protected from double inclusion
+main.h:10: WARNING: This line is not protected from double inclusion
+total: 2 errors, 8 warnings, 12 lines checked
+
+========== README.md ==========
+README.md:1: ERROR: trailing whitespace
+total: 1 errors, 0 warnings, 1 lines checked
